@@ -1,0 +1,2 @@
+ ansible-playbook  -i inventory playbook.yml
+ ansible all -a "ls -ltr /opt/itadmin" -i inventory
